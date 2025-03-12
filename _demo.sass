@@ -1,0 +1,32 @@
+#demo
+    padding: 20px 0
+    .box
+        width: 300px
+        height: 300px
+        border: 5px solid #e8d8fe
+        transition: 1s
+        h1
+            font-size: 50px
+            color: #6b56a3
+        &:hover
+            width: 400px
+            height: 100px
+            border: 9px solid #6b33bc
+
+    @media ( max-width: 600px )
+        .box
+            width: 100px
+            height: 100px
+            border: 2px solid #9154a9
+            h1
+                font-size: 20px
+
+    @media ( max-width: 400px )
+        .box
+            width: 45px
+            height: 45px
+            border: 5px solid #50a279
+            background-color: #588bc9
+            h1
+                font-size: 10px
+                color: #ffffff
